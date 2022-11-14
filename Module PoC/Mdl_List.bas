@@ -1,0 +1,53 @@
+Attribute VB_Name = "Mdl_List"
+Option Explicit
+'ComboBox List item for FrmSearchClick Form
+Sub FrmsearchClick_ListBox()
+    FrmSearchClick.ComboPOC.AddItem "MAN"
+    FrmSearchClick.ComboPOC.AddItem "METHOD"
+    FrmSearchClick.ComboPOC.AddItem "MACHINE"
+    FrmSearchClick.ComboPOC.AddItem "MATERIAL"
+    FrmSearchClick.ComboPOC.AddItem "MEASUREMENT"
+    FrmSearchClick.ComboProductSafety.AddItem "YES"
+    FrmSearchClick.ComboProductSafety.AddItem "NO"
+    FrmSearchClick.ComboProcess.AddItem "SPIRALLING"
+    FrmSearchClick.ComboProcess.AddItem "WELDING"
+    FrmSearchClick.ComboProcess.AddItem "FINISHING"
+    FrmSearchClick.ComboProcess.AddItem "APPEARANCE"
+    FrmSearchClick.ComboProcess.AddItem "FORMING"
+    FrmSearchClick.ComboCC.AddItem "PLAN"
+    FrmSearchClick.ComboCC.AddItem "UNPLAN"
+    FrmSearchClick.ComboCC.AddItem "OTHERS"
+End Sub
+'CommboBox list item for FrmReport Form
+Sub FrmReport_ListBox()
+    FrmReport.ComboShiftPattern.AddItem "A"
+    FrmReport.ComboShiftPattern.AddItem "B"
+    FrmReport.ComboShiftPattern.AddItem "C"
+    FrmReport.ComboPOC.AddItem "MAN"
+    FrmReport.ComboPOC.AddItem "METHOD"
+    FrmReport.ComboPOC.AddItem "MACHINE"
+    FrmReport.ComboPOC.AddItem "MATERIAL"
+    FrmReport.ComboPOC.AddItem "MEASUREMENT"
+    FrmReport.ComboProcess.AddItem "SPIRALLING"
+    FrmReport.ComboProcess.AddItem "WELDING"
+    FrmReport.ComboProcess.AddItem "FINISHING"
+    FrmReport.ComboProcess.AddItem "APPEARANCE"
+    FrmReport.ComboProcess.AddItem "FORMING"
+    FrmReport.ComboProductSafety.AddItem "YES"
+    FrmReport.ComboProductSafety.AddItem "NO"
+    FrmReport.ComboCC.AddItem "PLAN"
+    FrmReport.ComboCC.AddItem "UNPLAN"
+    FrmReport.ComboCC.AddItem "OTHERS"
+    FrmReport.ComboSize.AddItem "70"
+    FrmReport.ComboSize.AddItem "80"
+    FrmReport.ComboSize.AddItem "90"
+    FrmReport.ComboSize.AddItem "100"
+    FrmReport.TxtModelType.AddItem "1S"
+    FrmReport.TxtModelType.AddItem "2S"
+    FrmReport.TxtModelType.AddItem "3S"
+    FrmReport.TxtModelType.AddItem "5S"
+    FrmReport.TxtModelType.AddItem "12S"
+    FrmReport.TxtModelType.AddItem "5T"
+End Sub
+
+
